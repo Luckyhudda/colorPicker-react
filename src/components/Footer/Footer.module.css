@@ -1,0 +1,16 @@
+.footer {
+  background: #0b62c0;
+  color: #fff;
+  width: 100vw;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer h2 {
+  text-align: center;
+  font-weight: 100;
+  color: #fff;
+  font-size: larger;
+}

@@ -1,0 +1,30 @@
+.btn {
+  height: 2rem;
+  border: 1px solid #0b62c0;
+  border-radius: 0.4rem;
+  width: 75px;
+  font-weight: 600;
+  color: #0b62c0;
+  background: transparent;
+  margin-left: 0.7rem;
+  padding: 0 0.2rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #1172da;
+  color: #fff;
+}
+.disableBtn {
+  height: 2rem;
+  border: 1px solid #0000008a;
+  border-radius: 0.4rem;
+  width: 75px;
+  font-weight: 600;
+  color: #626161;
+  background: #dbdbdb;
+  margin-left: 0.7rem;
+  padding: 0 0.2rem;
+  transition: all 0.3s;
+
+}
