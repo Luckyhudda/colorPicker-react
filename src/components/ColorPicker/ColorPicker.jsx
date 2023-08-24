@@ -7,7 +7,7 @@ import style from "./ColorPicker.module.css";
 import { colorsFamily, hexColor } from "../../service/colorsPackage";
 const ColorPicker = () => {
   const [text, setText] = useState("");
-  const [color, setColor] = useState(["gold", "gray", "blue", 'skyblue']);
+  const [color, setColor] = useState(["gold", "gray", "blue", "skyblue"]);
   const [boxColor, setBoxColor] = useState(color[3]);
   const [isDisable, setIsDisable] = useState(false);
   const aColor = [...colorsFamily];
@@ -23,9 +23,7 @@ const ColorPicker = () => {
     let finalColor = text.toUpperCase();
 
     if (finalColor && finalColor.trim()) {
-      let result = aColor.some(
-        (el) => el.name == finalColor || hexColor(text)
-      );
+      let result = aColor.some((el) => el.name == finalColor || hexColor(text));
       if (result) {
         setBoxColor(finalColor);
         let colors = [...color];
